@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Animated Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>My Image Gallery</h1>
+        <p>Welcome to my collection of beautiful images</p>
+    </header>
+    <main class="gallery">
+        <div class="gallery-item">
+            <img src="images/image1.jpg" alt="Abstract Art">
+            <div class="overlay">
+                <h3>Abstract Art</h3>
+                <p>A vibrant abstract painting.</p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/image2.jpg" alt="Mountain Landscape">
+            <div class="overlay">
+                <h3>Mountain Landscape</h3>
+                <p>A breathtaking mountain view.</p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/image3.jpg" alt="Forest Trail">
+            <div class="overlay">
+                <h3>Forest Trail</h3>
+                <p>A serene path through the woods.</p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/image4.jpg" alt="City Skyline">
+            <div class="overlay">
+                <h3>City Skyline</h3>
+                <p>The dazzling cityscape at night.</p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/image5.jpg" alt="Ocean Sunset">
+            <div class="overlay">
+                <h3>Ocean Sunset</h3>
+                <p>A tranquil sunset over the ocean.</p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/image6.jpg" alt="Desert Dunes">
+            <div class="overlay">
+                <h3>Desert Dunes</h3>
+                <p>The golden waves of the desert.</p>
+            </div>
+        </div>
+    </main>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-button">&times;</span>
+        <img id="lightbox-image" src="" alt="Lightbox Image">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
